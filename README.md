@@ -401,6 +401,14 @@ Ethereum:
 * [pq.ethereum.org](https://pq.ethereum.org/)
 * [Lean Consensus R&D Progress](https://leanroadmap.org/)
 
+FractalAI:
+
+* [FractalAI PQC receipt anchor](https://github.com/johnInarti/pqc-receipt-anchor) -
+  Layer 1 in Rust whose consensus signs blocks with **ML-DSA-65**; publishes a
+  [signing-key directory](https://fractalai.net.co/.well-known/x402-receipt-keys)
+  with epoch-based rotation and offline-verifiable signed receipts. Single
+  validator, pre-pilot, no FIPS 140-3/CMVP validation.
+
 NEAR:
 
 * [Preparing NEAR for the Quantum Computing Era](https://www.near.org/blog/making-near-protocol-post-quantum-safe) - "The Near One team (...) decided to start with FIPS-204 (**ML-DSA**, prev. Dilithium)"

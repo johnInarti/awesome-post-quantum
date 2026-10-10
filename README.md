@@ -320,7 +320,7 @@ what the [CISA strategy](https://www.cisa.gov/sites/default/files/2024-09/Strate
 * [CBOMkit](https://github.com/cbomkit/cbomkit) - Toolset for dealing with Cryptography Bill of Materials (CBOM)
 * [CryptoMon](https://github.com/Santandersecurityresearch/CryptoMon) - Network cryptography monitor using eBPF, Python
 * [cyclonedx-cli](https://github.com/CycloneDX/cyclonedx-cli) - Validate and convert CBOM/SBOM documents between CycloneDX serializations
-* [PQC Readiness Scan](https://github.com/johnInarti/pqc-receipt-verify-action/tree/main/readiness-scan) - GitHub Action, static scan of a repository, emits a CycloneDX 1.6 CBOM
+* [PQC Readiness Scan](https://github.com/johnInarti/pqc-readiness-action) - GitHub Action, static scan of a repository, emits a CycloneDX 1.6 CBOM
 * [sonar-cryptography](https://github.com/cbomkit/sonar-cryptography) - SonarQube plugin that detects cryptographic assets in source code and generates CBOM
 
 ### General-purpose libraries with PQC support

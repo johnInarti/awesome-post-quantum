@@ -312,6 +312,17 @@ Tencent:
 * [PQConnect](https://www.pqconnect.net/) - Network-layer PQ-protected tunneling
 
 
+### Cryptography discovery and inventory
+
+Tools that find where classical cryptography lives, which is the first step of every migration and
+what the [CISA strategy](https://www.cisa.gov/sites/default/files/2024-09/Strategy-for-Migrating-to-Automated-PQC-Discovery-and-Inventory-Tools.pdf) above calls for:
+
+* [CBOMkit](https://github.com/cbomkit/cbomkit) - Toolset for dealing with Cryptography Bill of Materials (CBOM)
+* [CryptoMon](https://github.com/Santandersecurityresearch/CryptoMon) - Network cryptography monitor using eBPF, Python
+* [cyclonedx-cli](https://github.com/CycloneDX/cyclonedx-cli) - Validate and convert CBOM/SBOM documents between CycloneDX serializations
+* [PQC Readiness Scan](https://github.com/johnInarti/pqc-receipt-verify-action/tree/main/readiness-scan) - GitHub Action, static scan of a repository, emits a CycloneDX 1.6 CBOM
+* [sonar-cryptography](https://github.com/cbomkit/sonar-cryptography) - SonarQube plugin that detects cryptographic assets in source code and generates CBOM
+
 ### General-purpose libraries with PQC support
 
 Does not include TLS implementations listed later:
